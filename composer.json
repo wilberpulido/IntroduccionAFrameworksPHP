@@ -1,0 +1,19 @@
+{
+    "name": "wilber/introduccion-framework-php",
+    "description": "Proyect basic",
+    "authors": [
+        {
+            "name": "wilberpulido",
+            "email": "pulidowilber@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
